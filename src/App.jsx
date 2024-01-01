@@ -28,11 +28,10 @@ const siteProps = {
   title: "Industrial Engineer",
   email: "jannina.romero@unmsm.edu.pe",
   gitHub: "Jannina-RM",
-  instagram: "microsoft",
+  /*instagram: "microsoft",*/
   linkedIn: "jannina-romero",
-  medium: "",
-  twitter: "jannina_rm",
-  youTube: "DaniTime",
+  twitter: "Jannina_rm",
+  youTube: "da.timeblue",
 };
 
 const primaryColor = "#4E567E";
