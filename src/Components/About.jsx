@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a industrial engineering student studying at San Marcos University. I enjoy creating unique and interesting projects in creative ways.";
+  "I'm an industrial engineering student with a great enthusiasm for technology and innovative projects.";
 
 /**
  * List of some of skills or technologies you work on, are learning,

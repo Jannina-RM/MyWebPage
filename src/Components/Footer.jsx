@@ -99,13 +99,13 @@ const Footer = (props) => {
           </a>
         )}
         {twitter && (
-          <a href={`https://twitter.com/${twitter}`} target="_blank" rel="noopener noreferrer">
+          <a href={`https://twitter.com/Jannina_rm`} target="_blank" rel="noopener noreferrer">
             <img src={twitterIcon} alt="Twitter" className="socialIcon" />
           </a>
         )}
         {youTube && (
           <a
-            href={`https://www.youtube.com/c/${youTube}`}
+            href={`https://www.youtube.com/@da.timeblue`}
             target="_blank"
             rel="noopener noreferrer"
           >
