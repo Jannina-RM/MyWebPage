@@ -29,10 +29,10 @@ const siteProps = {
   email: "jannina.romero@unmsm.edu.pe",
   gitHub: "Jannina-RM",
   instagram: "microsoft",
-  linkedIn: "satyanadella",
+  linkedIn: "jannina-romero",
   medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  twitter: "jannina_rm",
+  youTube: "DaniTime",
 };
 
 const primaryColor = "#4E567E";
