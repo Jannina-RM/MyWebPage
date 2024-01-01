@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm an industrial engineering student with a great enthusiasm for technology and innovative projects.";
+  "I'm Jannina, a passionate industrial engineering student with a love for creativity and innovation. This space is more than just a blog; it's my place to share with you my fascinating journey in the world of engineering and technology.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
