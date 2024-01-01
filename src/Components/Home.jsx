@@ -20,7 +20,7 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "/workspaces/MyWebPage/src/images/escritoriowomen.jpg";
+import image from "../images/escritoriowomen.jpg";
 
 const imageAltText = "Escritorio de mujer";
 
