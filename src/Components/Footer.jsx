@@ -60,9 +60,9 @@ const Footer = (props) => {
           gap: "2.5rem",
         }}
       >
-        {email && (
-          <a href={`jannina.romero@unmsm.edu.pe`} 
-            <img src={envelopeIcon} alt="email" className="socialIcon" />
+       {email && (
+          <a href={`jannina.romero@unmsm.edu.pe`}>
+            <img src={envelopeIcon} alt="jannina.romero@unmsm.edu.pe" className="socialIcon" />
           </a>
         )}
         {devDotTo && (
