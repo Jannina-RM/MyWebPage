@@ -44,21 +44,22 @@ section img.background {
   width: 100vmax;
   z-index: -1;
 }
-
+/* Titulo Nombre */
 h1 {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 7rem;
+  font-family: "Cormorant Garamond", serif; 
+  font-size: 6rem;
   font-weight: 400;
-  line-height: 0.8;
+  line-height: 1;
   margin: 0;
   color: rgb(255, 255, 255);
 }
-
+/* Titulo Carrera */
 h2 {
-  font-size: 2rem;
+  /*salto de línea:font-size: 2rem;*/
   font-weight: 400;
   margin: 0;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
+  color: rgb(255, 255, 255);
 }
 
 h3 {
