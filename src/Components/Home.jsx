@@ -20,8 +20,8 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/escritoriowomen.jpg";
-
+/*import image from "../images/escritoriowomen.jpg";*/
+import image from "../images/deskfuturisticmodificado.jpg";
 const imageAltText = "Escritorio de mujer";
 
 const Home = ({ name, title }) => {
@@ -39,10 +39,7 @@ const Home = ({ name, title }) => {
   );
 };
 
-Home.defaultProps = {
-  name: "",
-  title: "",
-};
+
 
 Home.propTypes = {
   name: PropTypes.string.isRequired,
