@@ -30,12 +30,12 @@ section.min-height {
 }
 
 section.padding {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 
 section img.background {
   height: 100%;
-  left: 30%;
+  left: 50%;
   object-fit: cover;
   pointer-events: none;
   position: absolute;

@@ -23,9 +23,8 @@ const imageAltText = "purple and blue abstract background";
 /**
  * Sort description that expands on your title on the Home component.
  */
-const description =
-  "I'm Jannina, a passionate industrial engineering student with a love for creativity and innovation. This space is more than just a blog; it's my place to share with you my fascinating journey in the world of engineering and technology.This blog is a space for the community of curious minds passionate about engineering. Here, you'll find stories, reflections, and projects that I hope will inspire you as well. ";
-
+const description = 
+"Hi, my name is Jannina Romero. I'm an industrial engineering student in the National University of San Marcos - Perú, with a love for creativity and innovation. This space is more than just a blog; it's my place to share with you my fascinating journey in the world of engineering and technology.";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
@@ -45,7 +44,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation.";
+  "This blog is a space for the community of curious minds passionate about engineering. Here, you'll find stories, reflections and projects that I hope will inspire you as well";
 
 const About = () => {
   return (
@@ -65,11 +64,11 @@ const About = () => {
         <hr />
         <ul
           style={{
-            textAlign: "left",
+            textAlign: "right",
             columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
+            fontSize: "1.5rem",
+            margin: "2rem 2rem",
+            gap: "2rem",
           }}
         >
           {skillsList.map((skill) => (
