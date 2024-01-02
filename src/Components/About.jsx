@@ -24,14 +24,14 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm Jannina, a passionate industrial engineering student with a love for creativity and innovation. This space is more than just a blog; it's my place to share with you my fascinating journey in the world of engineering and technology.";
+  "I'm Jannina, a passionate industrial engineering student with a love for creativity and innovation. This space is more than just a blog; it's my place to share with you my fascinating journey in the world of engineering and technology.This blog is a space for the community of curious minds passionate about engineering. Here, you'll find stories, reflections, and projects that I hope will inspire you as well. ";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Creative problem solving",
+  "Creative",
   "Leadership",
   "Resilient",
   "Teamwork",
