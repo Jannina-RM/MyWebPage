@@ -31,10 +31,10 @@ const imageAltText = "Woman in desktop";
  */
 const projectList = [
   {
-    title: "Apply to become in a Microsoft Learning Ambassador in 5 steps! 🎉",
+    title: "Apply to become in a Microsoft Learning Student Ambassador in 5 steps! 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Join the revolution of technological learning and be part of our MLS community!🚀",
+    url: "",
   },
   {
     title: "Web Development for Beginners",
