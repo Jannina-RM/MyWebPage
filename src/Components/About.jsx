@@ -52,16 +52,21 @@ const detailOrQuote =
 const About = () => {
   return (
     <section className="padding" id="about">
-      <img className="background" src={image} alt={imageAltText} />
-      <div
-        style={{
-          backgroundColor: "white",
-          width: "50%",
-          padding: "4rem",
-          margin: "3rem auto",
-          textAlign: "center",
-        }}
-      >
+        <img className="background" src={image} alt={imageAltText} />
+        <div
+          style={{
+            backgroundColor: "white",
+            width: "50%",
+            padding: "4rem",
+            margin: "3rem auto",
+            textAlign: "right",
+          }}  
+        >
+        <img
+            src={image2}
+            style={{ height: "18%", width: "25%", objectFit: "cover" }}
+            alt={imageAltText2}
+          />
         <h2>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
@@ -81,11 +86,6 @@ const About = () => {
         <hr />
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
-      <img
-            src={image2}
-            style={{ height: "90%", width: "90%", objectFit: "cover" }}
-            alt={imageAltText2}
-          />
     </section>
   );
 };
