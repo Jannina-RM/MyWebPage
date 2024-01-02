@@ -5,7 +5,6 @@
  */
 
 import React from "react";
-
 /**
  * About background image
  *
@@ -20,11 +19,15 @@ import image from "../images/motion-background.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
+import image2 from "../images/3. Foto- Jannina Romero Mori.jpg";
+
+const imageAltText2 = "JanninaFoto";
+
+
 /**
  * Sort description that expands on your title on the Home component.
  */
-const description = 
-"Hi, my name is Jannina Romero. I'm an industrial engineering student in the National University of San Marcos - Perú, with a love for creativity and innovation. This space is more than just a blog; it's my place to share with you my fascinating journey in the world of engineering and technology.";
+const description = "Hi, my name is Jannina Romero. I'm an industrial engineering student in the National University of San Marcos - Perú, with a love for creativity and innovation. This space is more than just a blog; it's my place to share with you my fascinating journey in the world of STEM.";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
@@ -78,6 +81,11 @@ const About = () => {
         <hr />
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
+      <img
+            src={image2}
+            style={{ height: "90%", width: "90%", objectFit: "cover" }}
+            alt={imageAltText2}
+          />
     </section>
   );
 };
