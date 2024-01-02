@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Jannina Romero",
-  title: "Industrial Engineer | IEEE Student Member | Microsoft Learn Student Ambassador",
+  title: "Industrial Engineer         | IEEE Student Member       | Microsoft Learn Student Ambassador",
   email: "jannina.romero@unmsm.edu.pe",
   gitHub: "Jannina-RM",
   /*instagram: "microsoft",*/
