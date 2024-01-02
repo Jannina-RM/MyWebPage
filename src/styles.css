@@ -30,7 +30,7 @@ section.min-height {
 }
 
 section.padding {
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
 
 section img.background {
@@ -47,7 +47,7 @@ section img.background {
 /* Titulo Nombre */
 h1 {
   font-family: "Cormorant Garamond", serif; 
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: 400;
   line-height: 1;
   margin: 0;
@@ -55,7 +55,7 @@ h1 {
 }
 /* Titulo Carrera */
 h2 {
-  /*salto de línea:font-size: 2rem;*/
+  font-size: 1.5rem;
   font-weight: 400;
   margin: 0;
   padding-top: 0.5rem;
@@ -67,9 +67,9 @@ h3 {
   font-size: 1.25rem;
   margin: 0;
 }
-
+/*Frase de cierre*/
 p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   margin-bottom: 0;
   font-weight: 300;
@@ -84,11 +84,11 @@ p.small {
 }
 
 hr {
-  margin: 2.5rem;
+  margin: 2rem;
 }
 
 li {
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 li::marker {
@@ -96,7 +96,7 @@ li::marker {
 }
 
 a {
-  color: rgb(252, 64, 105);
+  color: rgb(178, 114, 184);
   text-decoration: none;
 }
 
@@ -106,9 +106,9 @@ a:hover {
 
 .container {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 30px;
   grid-template-columns: 330px 300px;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 .container .box {

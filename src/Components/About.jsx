@@ -27,7 +27,7 @@ const imageAltText2 = "JanninaFoto";
 /**
  * Sort description that expands on your title on the Home component.
  */
-const description = "Hi, my name is Jannina Romero. I'm an industrial engineering student in the National University of San Marcos - Perú, with a love for creativity and innovation. This space is more than just a blog; it's my place to share with you my fascinating journey in the world of STEM.";
+const description = "Hi, my name is Jannina Romero. I am a student of industrial engineering at the National University of San Marcos - Perú. ";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
@@ -56,27 +56,29 @@ const About = () => {
         <div
           style={{
             backgroundColor: "white",
-            width: "50%",
-            padding: "4rem",
-            margin: "3rem auto",
-            textAlign: "right",
+            width: "60%",
+            padding: "8rem",
+            margin: "1.5rem auto",
+            textAlign: "center",
           }}  
         >
-        <img
-            src={image2}
-            style={{ height: "18%", width: "25%", objectFit: "cover" }}
-            alt={imageAltText2}
-          />
+            <img
+                src={image2}
+                style={{ height: "18%", width: "30%", objectFit: "center" }}
+                alt={imageAltText2}
+            />
+    
         <h2>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
+        
         <ul
           style={{
-            textAlign: "right",
+            textAlign: "left",
             columns: 2,
             fontSize: "1.5rem",
             margin: "2rem 2rem",
-            gap: "2rem",
+            gap: "1rem",
           }}
         >
           {skillsList.map((skill) => (
@@ -85,7 +87,9 @@ const About = () => {
         </ul>
         <hr />
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        
       </div>
+      
     </section>
   );
 };
